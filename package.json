@@ -1,0 +1,11 @@
+{
+  "name": "opened",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpenEd - Educational content sharing platform",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd shared && npm install && cd ../backend && npm install && cd ../frontend && npm install"
+  }
+}
